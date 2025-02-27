@@ -7,11 +7,6 @@ set(Wt_DIR "/usr/local/lib/cmake/Wt")
 find_package(Wt REQUIRED COMPONENTS all)
 find_package(Boost REQUIRED COMPONENTS system filesystem)
 
-include_directories(
-        ${Wt_INCLUDE_DIRS}
-        ${Boost_INCLUDE_DIRS}
-)
-
 add_executable(NtpConfiguration main.cpp
         MenuPage.cpp
         MenuPage.h
