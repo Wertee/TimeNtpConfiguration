@@ -8,10 +8,10 @@ NTP Configuration
 ### Вид файла localsync.conf
 ```
 ntp_on=1
-Date=2025-02-26
-Time=11:50:40
-NTP=ntp.ubuntu.com
-FallbackNTP=test.ntp.com
+Date=
+Time=
+NTP=ntp0.ntp-servers.net
+FallbackNTP=ntp1.ntp-servers.net ntp4.ntp-servers.net
 Timezone=Europe/Moscow
 ```
 
