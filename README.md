@@ -20,7 +20,7 @@ Timezone=Europe/Moscow
 
 ---
 
-Окно "Настройка времени"
+Окно "Статус - Точное время"
 ---
 
 ![Главное окно](Media/Screenshots/MainScreen.png)
